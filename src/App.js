@@ -8,7 +8,7 @@ const App = () => {
     <div className="App">
       <h1>Counter App Using State</h1>
       <header>
-        <h2>The Current value of count is {counter}</h2>
+        <h2>The current value of counter is {counter}</h2>
       </header>
       <button onClick={() => setCounter(0)}>Reset Counter</button>
       <button onClick={() => (counter > 9 ? counter : setCounter(counter + 1))}>
